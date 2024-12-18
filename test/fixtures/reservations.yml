@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  restaurant_id: 1
+  start_time: 2024-12-18 10:00:00
+  party_size: 1
+
+two:
+  user_id: 1
+  restaurant_id: 1
+  start_time: 2024-12-18 10:00:00
+  party_size: 1
