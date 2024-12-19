@@ -6,8 +6,5 @@ class CreateRestaurantCuisines < ActiveRecord::Migration[8.0]
 
       t.timestamps
     end
-
-    add_index :reviews, :user_id
-    add_index :reviews, :restaurant_id
   end
 end

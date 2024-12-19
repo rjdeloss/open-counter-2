@@ -17,9 +17,5 @@ class CreateRestaurants < ActiveRecord::Migration[8.0]
 
       t.timestamps
     end
-
-    add_index :restaurants, :city
-    add_index :restaurants, :zip
-    add_index :restaurants, :price_range
   end
 end
