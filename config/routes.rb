@@ -13,6 +13,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   namespace :api, defaults: { format: :json } do
-    resource :users, only[:create]
+    resource :users, only: [ :create ]
   end
 end
