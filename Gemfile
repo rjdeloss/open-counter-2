@@ -18,6 +18,8 @@ gem "stimulus-rails"
 gem "jbuilder"
 # Generate fake info for seed data [https://github.com/faker-ruby/faker]
 gem "faker"
+# Allows for handling Cross-Origin Resource Sharing (CORS), which makes cross-origin AJAX possible.
+gem "rack-cors"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem "bcrypt", "~> 3.1.7"
